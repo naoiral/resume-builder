@@ -1,0 +1,52 @@
+# Build directories
+build/
+build_vs/
+build_test/
+cmake-build-*/
+
+# Third-party unnecessary files
+third_party/imgui/examples/
+third_party/imgui/docs/
+third_party/libharu/demo/
+third_party/zlib/examples/
+third_party/zlib/contrib/
+third_party/sokol/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.exp
+
+# Test files
+test_*.cpp
+test_*.pdf
+CMakeLists_test.cmake
+build_test.bat
+
+# Temp files
+*.log
+*.tmp
+*.pdf
+
+# File number
+1
